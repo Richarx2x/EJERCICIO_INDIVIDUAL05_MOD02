@@ -1,0 +1,31 @@
+.titulo {
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+    font-style: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h2 {
+    text-align: left;
+    color: darkblue;
+    font-size: 40px;
+    font-style: 'Times New Roman', Cambria, Cochin, Georgia, Times, serif;
+}
+
+.marco {
+    border: 2px solid blue; 
+    padding: 10px;
+
+}
+
+body {
+    background-image: url(https://imagenes.extra.ec/files/image_full/uploads/2022/01/19/61e8beeba55ba.jpeg);
+   /* background-image: url(/img/platillos_voladores.jpeg); */
+    background-size: cover;
+  }
+
+@media screen and (max-width: 767px) {}
+  
+@media screen and (max-width: 1023px) and (min-width: 768px) {}
+  
+@media screen and (min-width: 1024px) {}
